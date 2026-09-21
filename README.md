@@ -199,3 +199,11 @@ for reading in incoming_telemetry:
 *   **Recalibrating Anomaly Filters:** 
 
 Raise the `anomaly_threshold` parameter inside the stream wrapper if standard operational mode transitions are triggering false anomaly alarms.
+
+## testing
+### Script Verification
+You can easily run this suite directly from your terminal bash:
+
+```
+python -m unittest test_pipeline.py
+```
