@@ -197,3 +197,5 @@ for reading in incoming_telemetry:
 
 *   **Adjusting Noise Margins:** Modify the initial parameter vectors (`stds`) inside the HMM instantiation to adjust for higher-interference hardware environments.
 *   **Recalibrating Anomaly Filters:** 
+
+Raise the `anomaly_threshold` parameter inside the stream wrapper if standard operational mode transitions are triggering false anomaly alarms.
